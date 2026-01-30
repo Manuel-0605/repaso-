@@ -22,4 +22,9 @@ const gameTwo: VideoGame = {
     initGame: () => { }
 };
 
+function printMessage(param: VideoGame): void {
+    console.log(param.title, param.price);
+}
 
+printMessage(gameOne);
+printMessage(gameTwo);
